@@ -1,0 +1,134 @@
+    1  git --version
+    2  javac -version
+    3  git config --global user .name "gueye"
+    4  git config --global user.name "gueye"
+    5  git config --global user.email "gueyeatta1631@gmail.com
+    6  ~/.gitconfig
+    7  git config --global user.email"gueyeatta163@gmail.com"
+    8  ~/.gitconfig
+    9  cat ~/.gitconfig
+   10  mkdir ~/tp-git
+   11  git init
+   12  cd tp-git
+   13  touch Main.java
+   14  lS
+   15  notpad Main.java
+   16  javac Main.java
+   17  echo "# Calculatrice" > REMADE.md"
+   18  echo "# Calculatrice" > REMADE.md
+   19  git add Main.java README.md
+   20  git add Main.java REMADE.md
+   21  git commit -m "Ajoute le méthode additionet le REMADE"
+   22  git restore Main.java
+   23  git --version
+   24  git restore --staged REMADE.md
+   25  git rm --cached Main.classe
+   26  git rm --cached Main.class
+   27  git revert identifiant
+   28  git log --oneline
+   29  git reset --soft HEAD~1
+   30  git reset --hard HEAD~1
+   31  git branch
+   32  git switch -c multiplication
+   33  git switch main
+   34  [200~git switch master~
+   35  git branch
+   36  git merge multiplication
+   37  mkdir examen
+   38  cd examen
+   39  git init
+   40  echo "Notes de cours"> notes.txt
+   41  git commit -m "premier commit"
+   42  git add notes.txt
+   43  git commit -m "premier commit"
+   44  git config --global user.name "Atta"
+   45  [200~git config --global user.email "gueyeatta163@gmail.com"
+   46  git config --global user.email "gueyeatta163@gmail.com"
+   47  git config --global init.defaultBranch main
+   48  git config --global gpg.format ssh
+   49  git config --global user.signingkey ~/.ssh/id_ed25519.pub
+   50  git config --global commit.gpgsign true
+   51  git config --global tag.gpgSign true
+   52  mkdir ~/dbe-eval-<matricule>
+   53  git config --global tag.gpgSign true
+   54  cd ~/dbe-eval-<matricule>
+   55  [200~mkdir ~/dbe-eval-<76 829 40 84>
+   56  git init
+   57  mkdir -p src scripts docs/preuves rendus logs
+   58  nano .gitignore
+   59  git config --global user.name "gueye"
+   60  git config --global user.email "gueyeatta@gmail.com"
+   61  git config --global init.defaultBranch main
+   62  git config --global gpg.format ssh
+   63  git config --global user.signingkey ~/.ssh/id_ed25519.pub
+   64  git config --global commit.gpgsign true
+   65  git config --global tag.gpgSign true
+   66  mkdir ~/dbe-eval-<200671>
+   67  git init
+   68  mkdir -p src scripts docs/preuves rendus logs
+   69  git add src/
+   70  git commit -m "Ajoute le code Java"
+   71  git add scripts/
+   72  git commit -m "Ajoute les scripts"
+   73  cat scripts/analyse.sh
+   74  sed -i 's/--top 5/--top 0/g' scripts/analyse.sh
+   75  cat scripts/analyse.sh
+   76  git add scripts/analyse.sh
+   77  cd ~/dbe-eval-071007
+   78  pwd
+   79  git branch --show-current
+   80  cat scripts/analyse.sh
+   81  sed -i 's/--top 5/--top 0/g' scripts/analyse.sh
+   82  cat scripts/analyse.sh
+   83  git add scripts/analyse.sh
+   84  git commit -m "Change le top par défaut"
+   85  git log --oneline -3
+   86  git push origin main
+   87  git status
+   88  git log --oneline -3
+   89  git push origin main
+   90  [200~git push origin main~
+   91  git push origin main
+   92  git status
+   93  git log --oneline -3
+   94  git branch -vv
+   95  git revert --no-edit HEAD
+   96  git log --oneline -4
+   97  cat scripts/analyse.sh
+   98  git push origin main
+   99  git push origin main
+  100  git status
+  101  git log --oneline -4
+  102  gpg --list-secret-keys
+  103  git tag -l
+  104  ls -la rendus/
+  105  git log --oneline -3
+  106  git config user.name
+  107  git config user.email
+  108  gpg --quick-gen-key "gueye <gueyeatta@gmai.com>" rsa3072 sign 0
+  109  gpg --quick-gen-key "gueye <gueyeatta@gmai.com>" rsa3072 sign 0
+  110  git config user.signingkey 7D9969E1D8CEB7603C4A5162BD4DBDDD2F1CD13A
+  111  git tag -s v1.0 -m "v1.0"
+  112  git tag -d v1.0
+  113  git config gpg.program gpg
+  114  git tag -s v1.0 -m "v1.0"
+  115  which -a gpg
+  116  ls "/c/Program Files/GnuPG/bin/gpg.exe"
+  117  ls "/c/Program Files (x86)/GnuPG/bin/gpg.exe"
+  118  gpg --list-keys
+  119  git config --list | grep -i -E "sign|gpg|user\."
+  120  git config --global gpg.format openpgp
+  121  git config --global user.signingkey 7D9969E1D8CEB7603C4A5162BD4DBDDD2F1CD13A
+  122  git config gpg.format openpgp
+  123  git config user.signingkey 7D9969E1D8CEB7603C4A5162BD4DBDDD2F1CD13A
+  124  git config --global gpg.format openpgp
+  125  git config --global user.signingkey 7D9969E1D8CEB7603C4A5162BD4DBDDD2F1CD13A
+  126  git config gpg.format openpgp
+  127  git config user.signingkey 7D9969E1D8CEB7603C4A5162BD4DBDDD2F1CD13A
+  128  git tag -s v1.0 -m "v1.0"
+  129  git tag -l
+  130  git tag -v v1.0
+  131  git push origin v1.0
+  132  mkdir -p docs/preuves
+  133  git reflog -n 60 > docs/preuves/reflog.txt
+  134  history > docs/preuves/historique_git.txt
